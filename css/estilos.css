@@ -1,1 +1,84 @@
-/* css */
+body {
+	background: #f0f0f0;
+	color: #AAA;
+	font-family: arial, helvetica;
+	font-size: 16px;
+	text-align: center;
+}
+header {
+	display: inline-block;
+	background: url("../images/logo.png") no-repeat 95% center;
+	background-color: #131313;
+	background-size: 100px, 0;
+/* 	box-shadow: red 0 3px 10px; sombra roja*/
+	height: 100px;
+	margin: 0 0 1em 0;
+	padding: 1em 0;
+	width: 100%;
+}
+header h1, header h2 {
+	color: #EEE;
+	margin: 0;
+}
+header h1 {
+	font-size: 2em;
+}
+header h2 {
+	font-size: 1.3em;
+	font-weight: lighter;
+}
+nav {
+	background: #768aa7;
+	margin: 55px 0;
+	padding: 1em;
+}
+nav ul {
+	list-style: none;
+	margin: 0;
+}
+nav ul li {
+	display: inline-block;
+}
+nav ul li a {
+	color: white;
+	margin: -2.1px;
+	padding: 1em 0.6em;
+	text-decoration: none;
+}
+nav ul li a:hover {
+	background: black;
+	color: #768aa7;
+}
+#caja {
+	margin-top: 40px;
+}
+#coche {
+	background: white;
+	margin: 0 0.5em 0.5em 0.5em;
+	text-align: left;
+	width: 50%;
+}
+#coche img {
+	width: 100%;
+	border-radius: 0.3em 0.3em 0 0;
+}
+#coche figcaption {
+	font-size: 0.85em;
+	margin: 1em;
+	line-height: 1.5em;
+}
+#coche, #historia {
+	display: inline-block;
+	vertical-align: top;
+}
+#historia {
+	color: #444;
+	background: rgba(0,0,0,0.03);
+	border-radius: 0.3em;
+/* 	box-shadow: rgba(0,0,0,0.1) 3px 3px 0; */
+	margin: 0 0 1em 1em;
+	padding: 5px 20px;
+	text-align: left;
+	width: 30%;
+}
+
